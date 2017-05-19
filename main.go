@@ -16,12 +16,12 @@ package main
 
 import (
 	"bufio"
-	"crypto/x509/pkix"
 	"encoding/base64"
 	"encoding/pem"
 	"flag"
 	"fmt"
 	"github.com/kumarde/asn1-test/asn1"
+	"github.com/kumarde/asn1-test/crypto/x509/pkix"
 	"math/big"
 	"os"
 	"strings"
