@@ -16,20 +16,16 @@ package main
 
 import (
 	"bufio"
-	"encoding/asn1"
+	"crypto/x509/pkix"
 	"encoding/base64"
 	"encoding/pem"
 	"flag"
 	"fmt"
-	//"github.com/zmap/zcrypto/ct/asn1"
-	//"github.com/zmap/zcrypto/x509/pkix"
-	"crypto/x509/pkix"
+	"github.com/kumarde/asn1-test/asn1"
 	"math/big"
 	"os"
 	"strings"
 	"time"
-
-	//log "github.com/Sirupsen/logrus"
 )
 
 type InputFormatType int
